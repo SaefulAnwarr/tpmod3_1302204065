@@ -3,15 +3,14 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] arg)
     {
         KodePos table_Kodepos = new KodePos();
-        Console.WriteLine("========= GET KODE POS KEBONWARU =========");
-        table_Kodepos.getKodepos("Kebonwaru");
-        Console.WriteLine("==== GET ALL KODE POS ====");
+        Console.WriteLine(" ====== DAPATKAN KODE POS KEBONWARU =======");
+        table_Kodepos.getKodePos("Kebonwaru");
+        Console.WriteLine("==== DAPATKAN ALL KODE POS ======");
         table_Kodepos.getAllkodepos();
-        /////////////////////////////////////
-
+        ////////////////////////
         Console.WriteLine("========= KUNCI PINTU =========");
         DoorMachine pintu = new DoorMachine();
         pintu.kunci();
@@ -34,31 +33,8 @@ class KodePos
             {"Kebonwaru"    ,"40272"},
             {"Maleer"       ,"40274"},
             {"Samoja"       ,"40273"}
-    };
-
-    public void getKodepos(string kel)
-    {
-        if (dic.ContainsKey(kel))
-        {
-            Console.WriteLine(kel + " : " + dic[kel]);
-        }
-        else
-        {
-            Console.WriteLine(kel + " tidak ditemukan");
-        }
     }
-
-    public void getAllkodepos()
-    {
-        foreach (KeyValuePair<string, string> ele1 in dic)
-        {
-            Console.WriteLine("{0} \t\t {1}", ele1.Key, ele1.Value);
-        }
-    }
-
-
 }
-
 class DoorMachine
 {
     enum State { TERKUNCI, TERBUKA };
