@@ -1,0 +1,5 @@
+D:\Tugas Kuliah\Semester IV\Konstruksi PL\Praktikum_kpl\mod3\mod3\obj\Debug\net6.0\mod3.csproj.AssemblyReference.cache
+D:\Tugas Kuliah\Semester IV\Konstruksi PL\Praktikum_kpl\mod3\mod3\obj\Debug\net6.0\mod3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tugas Kuliah\Semester IV\Konstruksi PL\Praktikum_kpl\mod3\mod3\obj\Debug\net6.0\mod3.AssemblyInfoInputs.cache
+D:\Tugas Kuliah\Semester IV\Konstruksi PL\Praktikum_kpl\mod3\mod3\obj\Debug\net6.0\mod3.AssemblyInfo.cs
+D:\Tugas Kuliah\Semester IV\Konstruksi PL\Praktikum_kpl\mod3\mod3\obj\Debug\net6.0\mod3.csproj.CoreCompileInputs.cache
